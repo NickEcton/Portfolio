@@ -75,6 +75,11 @@ input, select, textarea {
 #one a {
 	border-bottom: none;
 }
+
+/* #gif {
+	height: 400px;
+	width: 400px;
+} */
 /* Basic */
 
 	@-ms-viewport {
@@ -2541,7 +2546,7 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 50%;
+			width: 25%;
 		}
 
 			.features li:nth-child(1) {
