@@ -147,7 +147,7 @@ input, select, textarea {
 				font-size: 11pt;
 				letter-spacing: 0.0375em;
 			}
-
+		
 		}
 
 #myFace {
@@ -1528,6 +1528,13 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+
+			#myFace {
+				
+				margin-left: 0;
+				width: 100%;
+			
+			}
 
 			.row {
 				display: flex;
