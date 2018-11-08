@@ -44,15 +44,17 @@
 		}
 
 	// Scrolly.
-		$('.scrolly')
-			.scrolly({
-				speed: 1500,
-				offset: $header.outerHeight()
-			});
+		
 
 	$('a[href^="#"]').scrolly({
 		speed: 1500,
+		offset: $header.outerHeight() - 1
 	});
+
+	$('.scrolly')
+			.scrolly({
+				speed: 1500,		
+			});
 
 	// Menu.
 		$('#menu')
