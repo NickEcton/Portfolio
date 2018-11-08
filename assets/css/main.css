@@ -3352,6 +3352,14 @@ input, select, textarea {
 			z-index: 10001;
 		}
 
+/* .spotlight a {
+	border-bottom: 1px solid white;
+}
+
+.spotlight a ::hover {
+	border-bottom: none;
+} */
+
 	#menu {
 		-moz-transform: translateX(20em);
 		-webkit-transform: translateX(20em);
