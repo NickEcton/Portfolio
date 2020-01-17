@@ -1,0 +1,61 @@
+#linked {
+    font-family: 'Dancing Script';
+    border-bottom: 3px solid blue;
+    font-size: 60px;
+}
+
+#testimonial {
+    width: 100%;
+}
+
+#unfinWeb {
+    width: 60%;
+}
+
+#nickFace {
+    border-radius: 50%;
+    width: 30%;
+}
+
+#tagLine {
+    margin-bottom: 5%;
+}
+
+#downloadContainer {
+    margin-top:40px;
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.choiceContainer {
+    display: flex; 
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.sectionHeader {
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+#individual {
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+
+#enterprise {
+    cursor: pointer;
+}
+
+.marginAuto {
+    margin: auto;
+}
+
+.face {
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
