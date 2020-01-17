@@ -1,7 +1,27 @@
+@font-face { font-family: Myriad; src: url('../../assets/fonts/Myriad\ Pro\ Bold.ttf'); } 
+@font-face { font-family: MyriadReg; src: url('../../assets/fonts/MYRIADPRO-REGULAR.woff'); } 
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background: url('../../images/backgroundLaptop.jpg');
+    background-size: auto;
+    padding-bottom: 190px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
 #linked {
-    font-family: 'Dancing Script';
-    border-bottom: 3px solid blue;
+    font-family: 'Myriad';
     font-size: 60px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: white;
+    color: #2977c9;
+    border-radius: 5%;
 }
 
 #testimonial {
@@ -19,6 +39,15 @@
 
 #tagLine {
     margin-bottom: 5%;
+    text-align: left;
+    font-size: 3.5rem;
+    margin-left: 50px;
+}
+
+#poc {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 50px;
 }
 
 #downloadContainer {
@@ -27,7 +56,8 @@
 }
 
 body {
-    background-color: lightblue;
+    font-family: 'MyriadReg';
+    background-color: white;
 }
 
 .choiceContainer {
@@ -43,11 +73,20 @@ body {
 
 #individual {
     cursor: pointer;
-    border-bottom: 2px solid blue;
+    opacity: 1.0;
+}
+
+#individual button {
+    outline: none;
 }
 
 #enterprise {
     cursor: pointer;
+    opacity: 0.5;
+}
+
+#enterprise button {
+    outline: none;
 }
 
 .marginAuto {
@@ -58,4 +97,19 @@ body {
     border-radius: 50%;
     cursor: pointer;
     margin-bottom: 30px;
+}
+
+.buttonFun{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
 }
