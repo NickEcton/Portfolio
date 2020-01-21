@@ -53,11 +53,11 @@ let clickedFace = function(e) {
     images = document.querySelectorAll('.face');
     let target = e.target.id;
 
-    if(e.target.src === kristianPhoto) {
+    if(e.target.src === kristianPhoto || 'https://www.nickecton.com/images/kristianFace.jpeg') {
         text.innerText = kristianText;
-    } else if(e.target.src === jonahPhoto) {
+    } else if(e.target.src === jonahPhoto || 'https://www.nickecton.com/images/jonahFace.jpeg') {
         text.innerText = jonahText;
-    } else if(e.target.src == reaganPhoto) {
+    } else if(e.target.src == reaganPhoto || 'https://www.nickecton.com/images/reaganFace.jpeg') {
         text.innerText = reaganText;
     }
 
